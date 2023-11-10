@@ -1,0 +1,5 @@
+C:\Users\d47305409\Desktop\C-EJERCICIOS-PRACTICA\obj\Debug\net6.0\C-EJERCICIOS-PRACTICA.csproj.AssemblyReference.cache
+C:\Users\d47305409\Desktop\C-EJERCICIOS-PRACTICA\obj\Debug\net6.0\C-EJERCICIOS-PRACTICA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d47305409\Desktop\C-EJERCICIOS-PRACTICA\obj\Debug\net6.0\C-EJERCICIOS-PRACTICA.AssemblyInfoInputs.cache
+C:\Users\d47305409\Desktop\C-EJERCICIOS-PRACTICA\obj\Debug\net6.0\C-EJERCICIOS-PRACTICA.AssemblyInfo.cs
+C:\Users\d47305409\Desktop\C-EJERCICIOS-PRACTICA\obj\Debug\net6.0\C-EJERCICIOS-PRACTICA.csproj.CoreCompileInputs.cache

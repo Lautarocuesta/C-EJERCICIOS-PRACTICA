@@ -2,34 +2,41 @@ using System;
 using System.Collections;
 
 
-class Program {
-     public static void ary () {
-     var arlist = new ArrayList();
+class LinearSearch {
+
+public static void ary1 () {
+
+    ArrayList list = new ArrayList() { 1, 2, 3, 4, 5 };
+        int target = 3;
+        int index = Search(list, target);
+        if (index != -1)
+        {
+            Console.WriteLine("Element found at index: " + index);
+        }
+        else
+        {
+            Console.WriteLine("Element not found");
+        }
+    }
     // Agrego elementos al ArrayList 
-    arlist.Add(10);
-    arlist.Add(20);
-    arlist.Add(30);
- }
-public static int BinarySearch(ArrayList arr, int target) {
-    int left = 0;
-    int right = arr.Count - 1;
-
-    while (left <= right) {
-      int mid = (left + right) / 2;
-      int midValue = (int)arr[mid];
-
-      if (midValue == target) {
-        return mid;
-      } else if (midValue < target) {
-        left = mid + 1;
-      } else {
-        right = mid - 1;
-      }
+}
+public static int Search(ArrayList arr, int target) {
+   {
+    for(int i = 0; i<list.Count;i++) {
+   if(list[i].Equals(target))
+{
+    return i;
+    {
+    return -1;
     }
 
-    return -1; // Element not found
-  }
+
   public static void Main () {
-    ary();
+    ary1();
  }
   }
+
+
+
+    
+      
