@@ -1,21 +1,42 @@
+//Ejercicio 9: Ordenación (ArrayList)
+//Se solicita implementar el algoritmo BubbleSort en C# utilizando ArrayLists.
 using System;
 using System.Collections; 
-class BubbleSort{
-
-public static void b() {
-
-    ArrayList list = new ArrayList() { 1, 2, 3, 4, 5 };
-        for(int i[i]=0; i< list; i++){
-            for(int i[j]=0; j< list; j++){
-            if(i< list)
+class BubbleSort
+{
+ static void BubbleSortArrayList(ArrayList list)
+ {
+ for (int i = 0; i < list.Count - 1; i++)
+  {
+  for (int j = 0;  j < list.Count - i - 1; j++)
+  {
+      if ((int)list[j] > (int)list[j + 1])
+                {
+                    int temp = (int)list[j];
+                    list[j] = (int)list[j + 1];
+                    list[j + 1] = temp;
+                }
+            }
         }
-    
+    }   
+ 
+    public static void Main(string[] args)
+ { 
+ArrayList nums = new ArrayList(){9,2,5,7,1};
+
+
+Console.WriteLine("array original:");
+foreach (var num in nums)
+{
+  Console.Write(num + "");
 }
+Console.WriteLine();
 
-     
-}  
-  public static void Main () {
-    b();
+BubbleSortArrayList(nums);  
+ Console.WriteLine("Array ordenado:");
+        foreach (var num in nums)
+        {
+          Console.Write(num + "");
  }
-  }
-
+ }
+}

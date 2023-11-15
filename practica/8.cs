@@ -1,30 +1,52 @@
+//Ejercicio 8: Ordenación (ArrayList)
+//Se solicita implementar el algoritmo SelectionSort en C# utilizando ArrayLists.
 using System;
 using System.Collections;
+using System.Linq
+class Selection1Sort
+{
+     
+    
+static void SelectionSort(ArrayList)
+{
+    int length = list.Count;  
 
-class Selection_Sort{
-       
-    arr = new ArrayList() {64, 25, 12, 22, 11}
-        public Selection_Sort(int size){
-           for(int i = 0; i <arr-1 ,i++) 
+           for(int i = 0; i < length;i++) 
         {
-             var minKey = i;
-                for (var j = i + 1; j < array.Length; j++)
+                int minIndex = i;
+
+                for (int j = i + 1; j < length; j++)
                 {
-                    if (array[j] < array[minKey])
-                    {
-                        minKey = j;
+                    if ((int)list[j] < (int)list[minIndex])
+                    { 
+                        int minIndex = j;   
+                    }
+                    }
+                object temp = list[i];
+                list[i] = list[minIndex];
+                list[minIndex] = temp;
+                
+                    
+
                     }
                 }
 
-    public void Swap(int first, int second){
-            int temporary = data[first];    
-            data[first] = data[second];  
-            data[second] = temporary;  
-        }  
- }
-  } 
-  
-  }       
- public static void Main () {
-    Selection_Sort();
- }
+    public static void Main(string[] args)
+    {
+       Arraylist nums = new Arraylist() {2,4,7,8};
+      Console.WriteLine("Array original:");
+        foreach (var num in nums)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
+
+        SelectionSort(nums);
+
+        Console.WriteLine("Array ordenado:");
+        foreach (var num in nums)
+        {
+            Console.Write(num + " ");
+        }
+    }
+}

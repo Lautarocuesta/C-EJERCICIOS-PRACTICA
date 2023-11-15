@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\d47305409\\Desktop\\C-EJERCICIOS-PRACTICA\\C-EJERCICIOS-PRACTICA.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\C-EJERCICIOS-PRACTICA\\C-EJERCICIOS-PRACTICA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\d47305409\\Desktop\\C-EJERCICIOS-PRACTICA\\C-EJERCICIOS-PRACTICA.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\C-EJERCICIOS-PRACTICA\\C-EJERCICIOS-PRACTICA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\d47305409\\Desktop\\C-EJERCICIOS-PRACTICA\\C-EJERCICIOS-PRACTICA.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\C-EJERCICIOS-PRACTICA\\C-EJERCICIOS-PRACTICA.csproj",
         "projectName": "C-EJERCICIOS-PRACTICA",
-        "projectPath": "C:\\Users\\d47305409\\Desktop\\C-EJERCICIOS-PRACTICA\\C-EJERCICIOS-PRACTICA.csproj",
-        "packagesPath": "C:\\Users\\d47305409\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\d47305409\\Desktop\\C-EJERCICIOS-PRACTICA\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\C-EJERCICIOS-PRACTICA\\C-EJERCICIOS-PRACTICA.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\C-EJERCICIOS-PRACTICA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\d47305409\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -48,12 +48,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
