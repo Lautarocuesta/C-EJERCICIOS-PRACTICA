@@ -1,8 +1,12 @@
-using System;
+//Ejercicio 6: Búsqueda I (ArrayList)
+
+//Se solicita implementar el algoritmo Binary Search en C# utilizando ArrayLists.
+
+ using System;
 using System.Collections;
 
 
-class Program {
+class Program6 {
      public static void ary () {
      var arlist = new ArrayList();
     // Agrego elementos al ArrayList 
