@@ -2,7 +2,7 @@
 //Se solicita implementar el algoritmo SelectionSort en C# utilizando ArrayLists.
 using System;
 using System.Collections;
-using System.Linq
+using System.Linq;
 class Selection1Sort
 {
      
